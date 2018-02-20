@@ -1,0 +1,38 @@
+{
+  "name": "sidebar-selector",
+  "version": "1.0.0",
+  "description": "a sidebar selector for use with popup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Owchzzz/sidebar-selector.git"
+  },
+  "keywords": [
+    "sidebar",
+    "popup"
+  ],
+  "author": "Richard Abear <owchzzz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Owchzzz/sidebar-selector/issues"
+  },
+  "homepage": "https://github.com/Owchzzz/sidebar-selector#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.9",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "webpack": "^3.11.0",
+    "scss-loader": "0.0.1"
+  },
+  "dependencies": {
+    "fontawesome": "^4.7.2",
+    "underscore": "^1.8.3"
+  }
+}

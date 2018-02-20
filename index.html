@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div id="sidebar"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="dist/sidebarpopup.js"></script>
+        <script>
+            $('#sidebar').sidebarpopup([
+                {
+                    name:'Designers',
+                    items: [
+                        {name:'Richard Abear',role:'designer',desc:'Lorem Ipsum Dolor Sit Amet.', image:'', rating:3,hourly:8,jobs:119, actions:[{btn:'yellow',name:'message',action:'http://www.google.com'},{btn:'green',name:'Hire',action:'http://www.google.com'}]},
+                        {name:'Jonathan Tordeillas',role:'designer',desc:'Lorem Ipsum Dolor Sit Amet.', image:'', rating:2,hourly:8,jobs:119, actions:[{btn:'yellow',name:'message',action:'http://www.google.com'},{btn:'green',name:'Hire',action:'http://www.google.com'}]},
+                        {name:'Jonathan Siaga',role:'designer',desc:'Lorem Ipsum Dolor Sit Amet.', image:'', rating:4,hourly:8,jobs:119, actions:[{btn:'yellow',name:'message',action:'http://www.google.com'},{btn:'green',name:'Hire',action:'http://www.google.com'}]},
+                        {name:'Jonathan Siaga',role:'designer',desc:'Lorem Ipsum Dolor Sit Amet.', image:'', rating:5,hourly:8,jobs:119, actions:[{btn:'yellow',name:'message',action:'http://www.google.com'},{btn:'green',name:'Hire',action:'http://www.google.com'}]}
+                    ]
+                },
+                {
+                    name:'Copywriters',
+                    items: []
+                }
+            ]);
+        </script>
+    </body>
+</html>
